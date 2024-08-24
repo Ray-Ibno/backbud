@@ -74,16 +74,16 @@ const Section4 = () => {
               style={{ backgroundImage: `url(${item.img})` }}
               className="flex items-end bg-cover bg-center h-96 rounded-3xl overflow-hidden"
             >
-              <div className="p-2 flex justify-between items-center w-full bg-slate-400">
+              <div className="p-2 flex justify-between items-center w-full bg-slate-600">
                 <div className="flex flex-col">
-                  <p className="font-medium text-xl">{item.name}</p>
+                  <p className="font-medium text-xl text-white">{item.name}</p>
                   <p className="font-extralight text-sm text-slate-300">
                     ${item.price}
                   </p>
                 </div>
 
                 <div className="border-solid border border-slate-300 w-12 h-12 rounded-full">
-                  <button className="w-full h-full">
+                  <button className="w-full h-full text-white">
                     <FontAwesomeIcon icon={faArrowRight} />
                   </button>
                 </div>
